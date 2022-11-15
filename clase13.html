@@ -27,6 +27,16 @@
             margin: 0;
             font-family: 'Quicksand', sans-serif;
             }
+       
+        
+        .product-detail{
+            width: 360px;
+            padding: 24px;
+            box-sizing: border-box;
+            position: absolute;
+            right: 0;
+
+        }
         .title-container{
             display: flex;
         }
@@ -41,42 +51,7 @@
 
 
         }
-        
-        .product-detail{
-            width: 360px;
-            padding: 24px;
-            box-sizing: border-box;
-            position: absolute;
-            right: 0;
 
-        }
-
-        .shooping-cart{
-            display: grid;
-            grid-template-columns: auto 1fr auto auto ;
-            gap: 16px;
-            margin-bottom: 24px;
-            align-items: center;
-        }
-        .shooping-cart figure {   
-            margin: 0;
-        }
-        .shooping-cart figure img{   
-            width: 70px;
-            height: 70px;
-            border-radius: 20px;
-            object-fit: cover;
-
-        }
-        .shooping-cart p:nth-child(2){
-            color: var(--very-ligth-pink);
-        }
-        .shooping-cart p:nth-child(3){
-            font-size: var(--md);
-            font-weight: 800;
-        }
-
-        
         .order{
             display: grid;
             grid-template-columns: auto 1fr;
@@ -101,6 +76,34 @@
             text-align: end;
             font-weight: bold;
         }
+        .shooping-cart{
+            display: grid;
+            grid-template-columns: auto 1fr auto auto ;
+            gap: 16px;
+            margin-bottom: 24px;
+            align-items: center;
+        }
+
+        .shooping-cart figure {   
+            margin: 0;
+        }
+        .shooping-cart figure img{   
+            width: 70px;
+            height: 70px;
+            border-radius: 20px;
+            object-fit: cover;
+
+        }
+        .shooping-cart p:nth-child(2){
+            color: var(--very-ligth-pink);
+        }
+        .shooping-cart p:nth-child(3){
+            font-size: var(--md);
+            font-weight: 800;
+        }
+
+        
+       
         .primary-button{
             background-color: var(--hospital-green);
             border-radius: 8px;
